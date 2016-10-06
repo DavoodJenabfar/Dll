@@ -49,6 +49,7 @@
             this.textBoxAge1 = new Dll.Windows.Forms.TextBoxAge();
             this.textBoxAge2 = new Dll.Windows.Forms.TextBoxAge();
             this.label1 = new Dll.Windows.Forms.Label();
+            this.label2 = new Dll.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button6
@@ -236,11 +237,21 @@
             this.label1.TabIndex = 24;
             this.label1.Text = "Dll Test";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(214, 222);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(43, 13);
+            this.label2.TabIndex = 25;
+            this.label2.Text = "Dll Test";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(263, 253);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBoxAge2);
             this.Controls.Add(this.textBoxAge1);
@@ -292,6 +303,7 @@
         private Dll.Windows.Forms.TextBoxAge textBoxAge1;
         private Dll.Windows.Forms.TextBoxAge textBoxAge2;
         private Dll.Windows.Forms.Label label1;
+        private Dll.Windows.Forms.Label label2;
     }
 }
 
